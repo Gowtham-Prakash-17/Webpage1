@@ -1,0 +1,113 @@
+body{
+    background-image: url(../bizland/reference1.png);
+    height: 8938px;
+}
+/*common styles*/
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#quick-links{
+    
+    height: 32px;
+    background-color: rgba(0, 0, 255, 0.288);
+}
+
+#header{
+    height: 93px;
+    background-color: rgba(255, 0, 0, 0.288);
+}
+
+#highlights{
+    height: 366px;
+    background-color: rgba(0, 0, 255, 0.404);
+}
+#highlights .f-container{
+    display: flex;
+    justify-content: space-around;
+}
+#highlights .f-item{
+    background-color: white;
+    flex-basis: 20%;
+    padding: 15px;
+    box-shadow: rgb(231, 226, 226) 0px 0px 15px;
+    border-radius: ;
+    
+}
+
+#about{
+    height: 813px;
+    background-color: rgba(255, 0, 0, 0.363);
+}
+
+#skills{
+    height: 254px;
+    background-color: rgba(0, 0, 255, 0.342);
+}
+
+#statistics{
+    height: 246px;
+    background-color: rgba(255, 0, 0, 0.288);
+}
+
+#clients{
+    height: 143px;
+    background-color: rgba(0, 0, 255, 0.349);
+}
+
+#service{
+    height: 983px;
+    background-color: rgba(255, 0, 0, 0.247);
+}
+
+#testimonials{
+    height: 434px;
+    background-color: rgba(0, 0, 255, 0.363);
+}
+
+#portfolio{
+    height: 1434px;
+    background-color: rgba(255, 0, 0, 0.377);
+}
+
+#team{
+    height: 664px;
+    background-color: rgba(0, 0, 255, 0.39);
+}
+
+#pricing{
+    height: 719px;   
+    background-color: rgba(255, 0, 0, 0.37);
+}
+
+#contact{
+    height: 881px;
+    background-color: rgba(0, 0, 255, 0.349);
+}
+
+#footer{
+    height: 341px;
+    background-color: rgba(255, 0, 0, 0.322);
+}
+
+#legals{
+    height: 94px;
+    background-color: rgba(0, 0, 255, 0.459);
+}
+#faq{
+    height: 661px;
+    background-color: rgba(127, 255, 212, 0.452);
+}
+
+#newsletter{
+    height: 237px;
+    background-color: rgba(127, 255, 212, 0.397);
+}
+
+#banner{
+    padding-top: 0px;
+    height: 551px;
+    background-color: rgba(127, 255, 212, 0.342);
+}
+}
