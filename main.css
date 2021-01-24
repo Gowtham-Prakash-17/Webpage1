@@ -1,113 +1,280 @@
-body{
-    background-image: url(../bizland/reference1.png);
-    height: 8938px;
-}
-/*common styles*/
+/* -------------------Header-------------------------*/
+
+
 .container{
+  /* height: 80px;
+  background-color: rgba(245,245,245,1);*/
+  max-width: 1140px
+  width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+box-sizing: border-box;
+
+
+}
+.menu ul{
+	
+	display: inline-flex;
+	margin: 30px;
+	padding-top: 0;
+	align-items: center;
+
+
+	
+}
+.menu li {
+	list-style: none;
+	margin: 0 30px;
+	color: black;
+	cursor: pointer;
+	padding-top: 0;
+
+}
+
+.logo img{
+	width:120px;
+	margin-top: -15px;
+	margin-right: 900px;
+	text-align: center;
+}
+.active{
+	color: blue ! important;
+
+	
+}
+
+/*------------------------BANNER--------------------*/
+
+.row
+{
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+flex-direction: row;
+display: flex;
+margin-top:10%;
+text-align: center;
+box-sizing: border-box;
+}
+.col-lg-6{
+
+	 	 flex: 0 0 50%;
+	 	 max-width: 50%;
+	 	 margin-bottom: 2.5rem !important;
+
+}
+.text-primary{
+
+ color:#2f55d4 !important;
+}
+.para{
+	line-height: 1.8;
+	font :15px;
+	color: #a0a9b1;
+
+}
+.col-lg-6{
+	
+	 
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 1.5rem !important;
+
+}
+
+.button{
+	color: #fff;
+background: #2f55d4;
+border-color: #2f55d4;
+font-weight: 500;
+font-size: .9rem;
+border-radius: 10px;
+margin-right: .5rem !important;
+padding: .7rem 1.4rem;
+}
+
+.button1{
+	color: #fff;
+background: #34d1bf;
+border-color: #34d1bf;
+font-weight: 500;
+font-size: .9rem;
+border-radius: 10px;
+padding: .7rem 1.4rem;
+}
+
+/*-----------------------login table------------*/
+.col-lg-5{
+
+	margin-left: 15%;
+	position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+box-sizing: border-box;
+}
+
+.tab{
+
+margin-bottom: 30px;
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border-radius: .25rem !important;
+padding: 1.5rem !important;
+}
+
+.box{
+	box-sizing: border-box;
+}
+.field{
+	text-align: center !important;
+	color: #a0a9b1;
+}
+.formstyle{
+color: #a0a9b1;
+
+}
+.form-control{
+	display: block;
+
+padding: .375rem .75rem;
+font-size: 1rem;
+border: 1px solid #ced4da;
+
+
+}
+.btn{
+	width: 100%;
+	padding: .25rem .5rem;
+	background: #2f55d4;
+	color: #fff;
+}
+
+/*------------------------------SERVICES------------*/
+.rowcon{
+	padding-top: 80px;
+	display: flex;
+	justify-content: center !important;
+
+	flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
+.texpar{
+	text-align: center !important;
+	color: #a0a9b1;
+	
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+.textpart{
+	color: #2f55d4 !important;
+}
+
+.textsm{
+color: black !important;	
+}
+/*------------------6services-------------*/
+.containerser{
     width: 1140px;
     margin: 0 auto;
 }
 
-#quick-links{
-    
-    height: 32px;
-    background-color: rgba(0, 0, 255, 0.288);
-}
-
-#header{
-    height: 93px;
-    background-color: rgba(255, 0, 0, 0.288);
-}
-
-#highlights{
-    height: 366px;
-    background-color: rgba(0, 0, 255, 0.404);
-}
-#highlights .f-container{
-    display: flex;
-    justify-content: space-around;
-}
-#highlights .f-item{
-    background-color: white;
-    flex-basis: 20%;
-    padding: 15px;
-    box-shadow: rgb(231, 226, 226) 0px 0px 15px;
-    border-radius: ;
-    
-}
-
-#about{
-    height: 813px;
-    background-color: rgba(255, 0, 0, 0.363);
-}
-
-#skills{
-    height: 254px;
-    background-color: rgba(0, 0, 255, 0.342);
-}
-
-#statistics{
-    height: 246px;
-    background-color: rgba(255, 0, 0, 0.288);
-}
-
-#clients{
-    height: 143px;
-    background-color: rgba(0, 0, 255, 0.349);
-}
 
 #service{
-    height: 983px;
-    background-color: rgba(255, 0, 0, 0.247);
+    height: 700px;
+    background-color: white;
+    line-height: 1.5;
+}
+#service .section-title{
+    height: 225px;
+    line-height: 1.5;
+}
+#service .section-content .f-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 1;
+    /* padding: 10px; */
+
+}
+#service .section-content .f-item{
+    background-color: white;
+    flex-basis: 300px;
+    padding: 40px;
+    border-radius: 35px;
+    margin-bottom: 70px;
+    margin-top: 15px;
+    line-height: 1.5;
+
+}
+.font-1{
+	color: #343a40;
+	text-align: center !important;
+
+}
+.font-p{
+	color: #a0a9b1;
+	text-align: center !important;
+
+
+}
+/*------------------------Business-------------------*/
+.containerbus{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2f55d4 !important;
+
 }
 
-#testimonials{
-    height: 434px;
-    background-color: rgba(0, 0, 255, 0.363);
+
+#business{
+    height: 250px;
+
+
+    
+}
+#business.section-title{
+    height: 225px;
+}
+#business .bus-content .bus-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 1;
+   
+    /* padding: 10px; */
+
+}
+#business .bus-content .bus-item{
+     background-color: blue
+    flex-basis: 100px;
+    padding: -15px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    margin-top: 15px;
+    line-height: 1.5; 	
+    text-align: center !important;
+    
+}
+.textpart-1{
+	color: white !important;
+
+}
+.textsm-1{
+    color: hsla(0,0%,100%,.5) !important;
+}
+.font-2{
+	color: hsla(0,0%,100%,.5) !important;
 }
 
-#portfolio{
-    height: 1434px;
-    background-color: rgba(255, 0, 0, 0.377);
-}
 
-#team{
-    height: 664px;
-    background-color: rgba(0, 0, 255, 0.39);
-}
-
-#pricing{
-    height: 719px;   
-    background-color: rgba(255, 0, 0, 0.37);
-}
-
-#contact{
-    height: 881px;
-    background-color: rgba(0, 0, 255, 0.349);
-}
-
-#footer{
-    height: 341px;
-    background-color: rgba(255, 0, 0, 0.322);
-}
-
-#legals{
-    height: 94px;
-    background-color: rgba(0, 0, 255, 0.459);
-}
-#faq{
-    height: 661px;
-    background-color: rgba(127, 255, 212, 0.452);
-}
-
-#newsletter{
-    height: 237px;
-    background-color: rgba(127, 255, 212, 0.397);
-}
-
-#banner{
-    padding-top: 0px;
-    height: 551px;
-    background-color: rgba(127, 255, 212, 0.342);
-}
-}
